@@ -1,4 +1,4 @@
-const port=8080
+const port=process.env.port||8080
 const express=require('express')
  const cors=require('cors')
  const app=express()
